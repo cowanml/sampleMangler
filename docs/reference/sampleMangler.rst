@@ -1,0 +1,5 @@
+sampleMangler
+=============================
+
+.. automodule:: sampleMangler
+    :members:
