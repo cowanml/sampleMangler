@@ -5,6 +5,7 @@ sampleMangler
 Adapter layer between sampleManager and legacy api.
 
 master
+
 .. image:: https://travis-ci.org/cowanml/sampleMangler.svg?branch=master
     :alt: Travis-CI Build Status - master
     :target: https://travis-ci.org/cowanml/sampleMangler
@@ -26,6 +27,7 @@ master
 
 
 dev
+
 .. image:: https://travis-ci.org/cowanml/sampleMangler.svg?branch=dev
     :alt: Travis-CI Build Status - dev
     :target: https://travis-ci.org/cowanml/sampleMangler
