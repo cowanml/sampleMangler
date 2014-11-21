@@ -2,35 +2,53 @@
 sampleMangler
 ===============================
 
-.. image:: http://img.shields.io/travis/cowanml/sampleMangler/master.png?style=flat
-    :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/cowanml/sampleMangler
-
-.. image:: https://ci.appveyor.com/api/projects/status/github/cowanml/sampleMangler?branch=master
-    :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/cowanml/sampleMangler
-
-.. image:: http://img.shields.io/coveralls/cowanml/sampleMangler/master.png?style=flat
-    :alt: Coverage Status
-    :target: https://coveralls.io/r/cowanml/sampleMangler
-
-.. image:: http://img.shields.io/pypi/v/sampleMangler.png?style=flat
-    :alt: PYPI Package
-    :target: https://pypi.python.org/pypi/sampleMangler
-
-.. image:: http://img.shields.io/pypi/dm/sampleMangler.png?style=flat
-    :alt: PYPI Package
-    :target: https://pypi.python.org/pypi/sampleMangler
-
-.. image:: https://landscape.io/github/cowanml/sampleMangler/master/landscape.png?style=flat
-    :target: https://landscape.io/github/cowanml/sampleMangler/master
-    :alt: Code Quality Status
-
-.. image:: https://readthedocs.org/projects/sampleMangler/badge/?style=flat
-    :target: https://readthedocs.org/projects/sampleMangler
-    :alt: Documentation Status
-
 Adapter layer between sampleManager and legacy api.
+
+
+master:  |tci| |cvrg| |qual| |docs|
+
+.. |tci| image:: https://travis-ci.org/cowanml/sampleMangler.svg?branch=master
+    :alt: Travis-CI Build Status - master
+    :target: https://travis-ci.org/cowanml/sampleMangler/branches
+
+
+.. |cvrg| image:: https://coveralls.io/repos/cowanml/sampleMangler/badge.png?branch=master
+    :alt: Coverage Status
+    :target: https://coveralls.io/r/cowanml/sampleMangler?branch=master
+
+
+.. |qual| image:: https://landscape.io/github/cowanml/sampleMangler/master/landscape.svg
+    :alt: Code Quality Status
+    :target: https://landscape.io/github/cowanml/sampleMangler/master
+
+
+.. |docs| image:: https://readthedocs.org/projects/samplemangler/badge/?version=latest
+    :alt: Documentation Status
+    :target: http://samplemangler.readthedocs.org/en/latest
+
+
+dev:  |tcidev| |cvrgdev| |qualdev| |docsdev|
+
+.. |tcidev| image:: https://travis-ci.org/cowanml/sampleMangler.svg?branch=dev
+    :alt: Travis-CI Build Status - dev
+    :target: https://travis-ci.org/cowanml/sampleMangler/branches
+
+
+.. |cvrgdev| image:: https://coveralls.io/repos/cowanml/sampleMangler/badge.png?branch=dev
+    :alt: Coverage Status
+    :target: https://coveralls.io/r/cowanml/sampleMangler?branch=dev
+
+
+.. |qualdev| image:: https://landscape.io/github/cowanml/sampleMangler/dev/landscape.svg
+    :alt: Code Quality Status
+    :target: https://landscape.io/github/cowanml/sampleMangler/dev
+
+
+.. |docsdev| image:: https://readthedocs.org/projects/samplemangler/badge/?version=dev
+    :alt: Documentation Status
+    :target: http://samplemangler.readthedocs.org/en/dev
+
+
 
 * Free software: BSD license
 
@@ -44,10 +62,13 @@ Installation
 Documentation
 =============
 
-https://sampleMangler.readthedocs.org/
+https://samplemangler.readthedocs.org/
 
 Development
 ===========
+
+Use `gitflow <https://github.com/nvie/gitflow#readme>`_.
+
 
 To run the all tests run::
 
