@@ -10,14 +10,6 @@ sampleMangler
     :alt: Coverage Status
     :target: https://coveralls.io/r/cowanml/sampleMangler
 
-.. image:: http://img.shields.io/pypi/v/sampleMangler.png?style=flat
-    :alt: PYPI Package
-    :target: https://pypi.python.org/pypi/sampleMangler
-
-.. image:: http://img.shields.io/pypi/dm/sampleMangler.png?style=flat
-    :alt: PYPI Package
-    :target: https://pypi.python.org/pypi/sampleMangler
-
 .. image:: https://landscape.io/github/cowanml/sampleMangler/master/landscape.png?style=flat
     :target: https://landscape.io/github/cowanml/sampleMangler/master
     :alt: Code Quality Status
