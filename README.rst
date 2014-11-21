@@ -67,8 +67,7 @@ https://samplemangler.readthedocs.org/
 Development
 ===========
 
-Use git-flow_.
-.. _git-flow: https://github.com/nvie/gitflow#git-flow
+Use `git-flow <https://github.com/nvie/gitflow#gitflow>`_.
 
 
 To run the all tests run::
