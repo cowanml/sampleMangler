@@ -6,44 +6,44 @@ Adapter layer between sampleManager and legacy api.
 
 master
 .. image:: https://travis-ci.org/cowanml/sampleMangler.svg?branch=master
-    :target: https://travis-ci.org/cowanml/sampleMangler
     :alt: Travis-CI Build Status - master
+    :target: https://travis-ci.org/cowanml/sampleMangler
 
 
 .. image:: https://coveralls.io/repos/cowanml/sampleMangler/badge.png?branch=master
-    :target: https://coveralls.io/r/cowanml/sampleMangler?branch=master
     :alt: Coverage Status
+    :target: https://coveralls.io/r/cowanml/sampleMangler?branch=master
 
 
 .. image:: https://landscape.io/github/cowanml/sampleMangler/master/landscape.svg
-    :target: https://landscape.io/github/cowanml/sampleMangler/master
     :alt: Code Quality Status
+    :target: https://landscape.io/github/cowanml/sampleMangler/master
 
 
 .. image:: https://readthedocs.org/projects/samplemangler/badge/?version=latest
-    :target: https://readthedocs.org/projects/samplemangler/?badge=latest
     :alt: Documentation Status
+    :target: http://samplemangler.readthedocs.org/en/latest
 
 
 dev
 .. image:: https://travis-ci.org/cowanml/sampleMangler.svg?branch=dev
-    :target: https://travis-ci.org/cowanml/sampleMangler
     :alt: Travis-CI Build Status - dev
+    :target: https://travis-ci.org/cowanml/sampleMangler
 
 
 .. image:: https://coveralls.io/repos/cowanml/sampleMangler/badge.png?branch=dev
-    :target: https://coveralls.io/r/cowanml/sampleMangler?branch=dev
     :alt: Coverage Status
+    :target: https://coveralls.io/r/cowanml/sampleMangler?branch=dev
 
 
 .. image:: https://landscape.io/github/cowanml/sampleMangler/dev/landscape.svg
-    :target: https://landscape.io/github/cowanml/sampleMangler/dev
     :alt: Code Quality Status
+    :target: https://landscape.io/github/cowanml/sampleMangler/dev
 
 
 .. image:: https://readthedocs.org/projects/samplemangler/badge/?version=dev
-    :target: https://readthedocs.org/projects/samplemangler/?badge=dev
     :alt: Documentation Status
+    :target: http://samplemangler.readthedocs.org/en/dev
 
 
 * Free software: BSD license
