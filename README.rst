@@ -6,10 +6,6 @@ sampleMangler
     :alt: Travis-CI Build Status
     :target: https://travis-ci.org/cowanml/sampleMangler
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/cowanml/sampleMangler?branch=master
-    :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/cowanml/sampleMangler
-
 .. image:: http://img.shields.io/coveralls/cowanml/sampleMangler/master.png?style=flat
     :alt: Coverage Status
     :target: https://coveralls.io/r/cowanml/sampleMangler
