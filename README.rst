@@ -14,8 +14,8 @@ sampleMangler
     :target: https://landscape.io/github/cowanml/sampleMangler/master
     :alt: Code Quality Status
 
-.. image:: https://readthedocs.org/projects/sampleMangler/badge/?style=flat
-    :target: https://readthedocs.org/projects/sampleMangler
+.. image:: https://readthedocs.org/projects/samplemangler/badge/?version=latest
+    :target: https://readthedocs.org/projects/samplemangler/?badge=latest
     :alt: Documentation Status
 
 Adapter layer between sampleManager and legacy api.
@@ -36,6 +36,10 @@ https://sampleMangler.readthedocs.org/
 
 Development
 ===========
+
+Use git-flow_.
+.. _git-flow: https://github.com/nvie/gitflow#git-flow
+
 
 To run the all tests run::
 
