@@ -8,13 +8,20 @@ if not os.path.exists('.tox/configure'):
     virtualenv.create_environment('.tox/configure')
     print("Installing `jinja2` and `matrix` into bootstrap environment ...")
     if sys.platform == 'win32':
-        subprocess.check_call(['.tox/configure/Scripts/pip', 'install', 'jinja2', 'matrix'])
+        subprocess.check_call(['.tox/configure/Scripts/pip',
+                               'install', 'jinja2', 'matrix'])
     else:
-        subprocess.check_call(['.tox/configure/bin/pip', 'install', 'jinja2', 'matrix'])
+        subprocess.check_call(['.tox/configure/bin/pip',
+                               'install', 'jinja2', 'matrix'])
 if sys.platform == 'win32':
-    exec(compile(open('.tox/configure/Scripts/activate_this.py').read(), '.tox/configure/Scripts/activate_this.py', 'exec'), dict(__file__='.tox/configure/Scripts/activate_this.py'))
+    exec(compile(open('.tox/configure/Scripts/activate_this.py').read(),
+                 '.tox/configure/Scripts/activate_this.py', 'exec'),
+         dict(__file__='.tox/configure/Scripts/activate_this.py'))
 else:
-    exec(compile(open('.tox/configure/bin/activate_this.py').read(), '.tox/configure/bin/activate_this.py', 'exec'), dict(__file__='.tox/configure/bin/activate_this.py'))
+    exec(compile(open('.tox/configure/bin/activate_this.py').read(),
+                 '.tox/configure/bin/activate_this.py', 'exec'),
+         dict(__file__='.tox/configure/bin/activate_this.py'))
+
 import jinja2
 import matrix
 
