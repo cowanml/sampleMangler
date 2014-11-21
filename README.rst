@@ -56,10 +56,21 @@ dev:  |tcidev| |cvrgdev| |qualdev| |docsdev|
 Installation
 ============
 
-   Can't do  *pip install sampleMangler*  yet :(
+Can't *pip* these yet :(
 
-   git clone https://github.com/cowanml/sampleMangler.git
-   cd sampleMangler; python setup.py install
+
+1st, get sampleManager::
+
+    git clone https://github.com/NSLS-II/sampleManager.git
+    cd sampleManager
+    python setup.py build && su -c python setup.py install
+
+
+then sampleMangler::
+
+    git clone https://github.com/cowanml/sampleMangler.git
+    cd sampleMangler
+    python setup.py build && su -c python setup.py install
 
 
 Documentation
@@ -67,12 +78,13 @@ Documentation
 
 https://samplemangler.readthedocs.org/
 
+
 Development
 ===========
 
 Use `gitflow <https://github.com/nvie/gitflow#readme>`_.
 
 
-To run the all tests run::
+To run all the tests run::
 
     tox
