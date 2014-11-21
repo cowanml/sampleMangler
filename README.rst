@@ -52,12 +52,15 @@ dev:  |tcidev| |cvrgdev| |qualdev| |docsdev|
 
 * Free software: BSD license
 
+
 Installation
 ============
 
-::
+   Can't do  *pip install sampleMangler*  yet :(
 
-    pip install sampleMangler
+   git clone https://github.com/cowanml/sampleMangler.git
+   cd sampleMangler; python setup.py install
+
 
 Documentation
 =============
