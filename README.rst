@@ -37,6 +37,10 @@ https://sampleMangler.readthedocs.org/
 Development
 ===========
 
+Use git-flow_.
+.. _git-flow: https://github.com/nvie/gitflow#git-flow
+
+
 To run the all tests run::
 
     tox
