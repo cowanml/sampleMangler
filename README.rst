@@ -4,48 +4,50 @@ sampleMangler
 
 Adapter layer between sampleManager and legacy api.
 
-master
 
-.. image:: https://travis-ci.org/cowanml/sampleMangler.svg?branch=master
+master:  |tci| |cvrg| |qual| |docs|
+
+.. |tci| image:: https://travis-ci.org/cowanml/sampleMangler.svg?branch=master
     :alt: Travis-CI Build Status - master
     :target: https://travis-ci.org/cowanml/sampleMangler/branches
 
 
-.. image:: https://coveralls.io/repos/cowanml/sampleMangler/badge.png?branch=master
+.. |cvrg| image:: https://coveralls.io/repos/cowanml/sampleMangler/badge.png?branch=master
     :alt: Coverage Status
     :target: https://coveralls.io/r/cowanml/sampleMangler?branch=master
 
 
-.. image:: https://landscape.io/github/cowanml/sampleMangler/master/landscape.svg
+.. |qual| image:: https://landscape.io/github/cowanml/sampleMangler/master/landscape.svg
     :alt: Code Quality Status
     :target: https://landscape.io/github/cowanml/sampleMangler/master
 
 
-.. image:: https://readthedocs.org/projects/samplemangler/badge/?version=latest
+.. |docs| image:: https://readthedocs.org/projects/samplemangler/badge/?version=latest
     :alt: Documentation Status
     :target: http://samplemangler.readthedocs.org/en/latest
 
 
-dev
+dev:  |tcidev| |cvrgdev| |qualdev| |docsdev|
 
-.. image:: https://travis-ci.org/cowanml/sampleMangler.svg?branch=dev
+.. |tcidev| image:: https://travis-ci.org/cowanml/sampleMangler.svg?branch=dev
     :alt: Travis-CI Build Status - dev
     :target: https://travis-ci.org/cowanml/sampleMangler/branches
 
 
-.. image:: https://coveralls.io/repos/cowanml/sampleMangler/badge.png?branch=dev
+.. |cvrgdev| image:: https://coveralls.io/repos/cowanml/sampleMangler/badge.png?branch=dev
     :alt: Coverage Status
     :target: https://coveralls.io/r/cowanml/sampleMangler?branch=dev
 
 
-.. image:: https://landscape.io/github/cowanml/sampleMangler/dev/landscape.svg
+.. |qualdev| image:: https://landscape.io/github/cowanml/sampleMangler/dev/landscape.svg
     :alt: Code Quality Status
     :target: https://landscape.io/github/cowanml/sampleMangler/dev
 
 
-.. image:: https://readthedocs.org/projects/samplemangler/badge/?version=dev
+.. |docsdev| image:: https://readthedocs.org/projects/samplemangler/badge/?version=dev
     :alt: Documentation Status
     :target: http://samplemangler.readthedocs.org/en/dev
+
 
 
 * Free software: BSD license
