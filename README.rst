@@ -8,7 +8,7 @@ master
 
 .. image:: https://travis-ci.org/cowanml/sampleMangler.svg?branch=master
     :alt: Travis-CI Build Status - master
-    :target: https://travis-ci.org/cowanml/sampleMangler
+    :target: https://travis-ci.org/cowanml/sampleMangler/branches
 
 
 .. image:: https://coveralls.io/repos/cowanml/sampleMangler/badge.png?branch=master
@@ -30,7 +30,7 @@ dev
 
 .. image:: https://travis-ci.org/cowanml/sampleMangler.svg?branch=dev
     :alt: Travis-CI Build Status - dev
-    :target: https://travis-ci.org/cowanml/sampleMangler
+    :target: https://travis-ci.org/cowanml/sampleMangler/branches
 
 
 .. image:: https://coveralls.io/repos/cowanml/sampleMangler/badge.png?branch=dev
