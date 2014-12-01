@@ -1,5 +1,5 @@
 sphinx
 sphinxcontrib-napoleon
 sphinx-py3doc-enhanced-theme
-pytest_dbfixtures
+pytest-dbfixtures
 -e .
