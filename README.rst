@@ -50,8 +50,6 @@ dev:  |tcidev| |cvrgdev| |qualdev| |docsdev|
 
 
 
-* Free software: BSD license
-
 Installation
 ============
 
