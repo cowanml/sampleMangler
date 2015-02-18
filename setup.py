@@ -34,12 +34,10 @@ setup(
 #    zip_safe=True,
     classifiers=[
         # complete classifier list: http://pypi.python.org/pypi?%3Aaction=list_classifiers
-        "Development Status :: 5 - Production/Stable",
+        "Development Status :: 0 - Fetal",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: BSD License",
         "Operating System :: Unix",
         "Operating System :: POSIX",
-        "Operating System :: Microsoft :: Windows",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.6",
         "Programming Language :: Python :: 2.7",
@@ -55,6 +53,8 @@ setup(
     ],
     install_requires=[
         # eg: "aspectlib==1.1.1", "six>=1.7",
+        "pymongo",
+        "sampleManager"
     ],
     extras_require={
         # eg: 'rst': ["docutils>=0.11"],
@@ -63,6 +63,9 @@ setup(
         "console_scripts": [
             "sampleMangler = sampleMangler.__main__:main"
         ]
-    }
-
+    },
+# don't do this...?  just abstract dependencies here, concrete in requirements.txt...
+#    dependency_links = [
+#        "git+https://github.com/NSLS-II/sampleManager.git"
+#    ],
 )
