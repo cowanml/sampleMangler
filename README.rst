@@ -50,9 +50,6 @@ dev:  |tcidev| |cvrgdev| |qualdev| |docsdev|
 
 
 
-* Free software: BSD license
-
-
 Installation
 ============
 
@@ -72,6 +69,8 @@ then sampleMangler::
     cd sampleMangler
     python setup.py build && su -c python setup.py install
 
+    ...eventually just...?
+    pip install sampleMangler
 
 Documentation
 =============
