@@ -55,6 +55,7 @@ Installation
 
 ::
 
+    ...eventually just...?
     pip install sampleMangler
 
 Documentation
