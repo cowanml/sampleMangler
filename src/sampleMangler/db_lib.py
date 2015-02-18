@@ -1,43 +1,73 @@
 """
 Modified version of John Skinner's db_lib.py:
   - rewriting to switch from using pickle files to sampleManager API
+    (using dataapi for now)
+
   - also did some pep8/pylint/flake8 cleanup
 """
 
 import pickle
 import time
 
+import sampleManager.dataapi.commands as dataapi
 
-def createContainer(container_name, type_name, capacity):
+
+owner_name = 0  # need to work with john on this :(
+
+
+#def _createContainer(container_name, type_name, capacity):
+def _createContainer(owner_name, container_name, container_type_name):
     """
     Create a new container object:
+
+    
     """
 
-    containerObj = {"container_id": int(time.time()),
-                    "containerName": container_name,
-                    "type_name": type_name,
-                    "item_list": [None] * capacity}
+    # generate ids in the app for now, but
+    # need api to have an autogen id default
 
+# johns code expects:
+#    containerObj = {"container_id": int(time.time()),
+#                    "containerName": container_name,
+#                    "type_name": type_name,
+#                    "item_list": [None] * capacity}
     # The item list is a list of id's, whether they be other
     # containers or samples. This is becasue samples and pucks can
     # move.
 
-    containerFile = open("container.db", "a+")
-    pickle.dump(containerObj, containerFile)
-    containerFile.close()
+    # containerFile = open("container.db", "a+")
+    # pickle.dump(containerObj, containerFile)
+    # containerFile.close()
 
 
-def createSample(sampleName):
+# api should need:
+#    containerObj = {"container_id": int(time.time()),
+#                    "container_name": container_name,
+#                    "type_name": type_name,
+#                    "item_list": [None] * capacity}
+
+# dataapi needs:
+    containerObj = {"owner_name": owner_name,
+                    "container_name": container_name,
+                    "container_type_name": container_type_name,
+                    "container_props_dict": {}}
+
+    dataapi.save_container(**containerObj)
+
+
+
+def _createSample(sampleName):
     """
     """
 
-    sampleObj = {"sample_id": int(time.time()), "sampleName": sampleName,
-                 "requestList": []}
-
-    sampleFile = open("sample.db", "a+")
-    pickle.dump(sampleObj, sampleFile)
-    sampleFile.close()
-    return sampleObj["sample_id"]
+# johns code expects:
+#    sampleObj = {"sample_id": int(time.time()), "sampleName": sampleName,
+#                 "requestList": []}
+#
+#    sampleFile = open("sample.db", "a+")
+#    pickle.dump(sampleObj, sampleFile)
+#    sampleFile.close()
+#    return sampleObj["sample_id"]
 
 
 def getSampleByID(sample_id):
@@ -89,15 +119,19 @@ def getContainerIDbyName(container_name):
     """
     """
 
-    pickleFile = open("container.db", "a+")
-    try:
-        while (1):
-            retQ = pickle.load(pickleFile)
-            if (retQ["containerName"] == container_name):
-                return retQ["container_id"]
-    except EOFError:
-        pickleFile.close()
-    return -99
+#    pickleFile = open("container.db", "a+")
+#    try:
+#        while (1):
+#            retQ = pickle.load(pickleFile)
+#            if (retQ["containerName"] == container_name):
+#                return retQ["container_id"]
+#    except EOFError:
+#        pickleFile.close()
+#    return -99
+
+    query_dict = {'owner_id': owner_id, 'container_name': container_name}
+    dataapi.find_container(query_dict)
+
 
 
 def getContainerNameByID(container_id):
