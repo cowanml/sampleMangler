@@ -84,6 +84,9 @@ Development
 Use `gitflow <https://github.com/nvie/gitflow#readme>`_.
 
 
-To run all the tests run::
+To run tests::
 
-    tox
+    tox -e pep8
+    tox -e flake8
+    tox -e 2.7
+    ...
