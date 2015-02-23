@@ -53,7 +53,7 @@ dev:  |tcidev| |cvrgdev| |qualdev| |docsdev|
 Installation
 ============
 
-Can't *pip* these yet :(
+Can't *pip* this yet :(
 
 
 1st, get sampleManager::
