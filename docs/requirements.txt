@@ -1,7 +1,7 @@
 pytest-dbfixtures
 importlib
 pymongo
--e git+https://github.com/cowanml/sampleManager.git#egg=sampleManager
+-e git+https://github.com/cowanml/sampleManager.git@dev#egg=sampleManager
 -e .
 
 # note!  had to do small hack to mirakuru :( to get 'tox -e 2.6' to work locally
