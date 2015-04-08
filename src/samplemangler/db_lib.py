@@ -6,6 +6,8 @@ Modified version of John Skinner's db_lib.py:
   - also did some pep8/pylint/flake8 cleanup
 """
 
+from __future__ import print_function
+
 import pickle
 import time
 
@@ -206,7 +208,7 @@ def insertIntoContainer(container_name, position, itemID):
             pickle.dump(origQ[i], containerFile)
         containerFile.close()
     else:
-        print "bad container name"
+        print("bad container name")
 
 
 def getContainers():
@@ -343,7 +345,7 @@ def getQueue():
                 sampleList = puck["item_list"]
                 for j in range(0, len(sampleList)):
                     if (sampleList[j] is not None):
-                        print "sample ID = " + str(sampleList[j])
+                        print("sample ID = " + str(sampleList[j]))
                         sampleReqList = getSampleByID(sampleList[j])["requestList"]
                         for k in range(0, len(sampleReqList)):
                             if (sampleReqList[k] is not None):
@@ -491,12 +493,12 @@ def deleteRequest(reqObj):
 #    found = 0
     for i in range(0, len(origQ)):
         if (origQ[i]["request_id"] == reqObj["request_id"]):
-            print "found the request to delete 1"
+            print("found the request to delete 1")
             s = getSampleByID(reqObj["sample_id"])
             for i in range(0, len(s["requestList"])):
                 if (s["requestList"][i] is not None):
                     if (s["requestList"][i]["request_id"] == reqObj["request_id"]):
-                        print "trying to delete request"
+                        print("trying to delete request")
                         s["requestList"][i] = None
                         updateSample(s)
 
